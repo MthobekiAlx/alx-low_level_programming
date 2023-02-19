@@ -1,4 +1,4 @@
-i#include <stdio.h>
+#include <stdio.h>
 
 /**
  *main - print a num pair from 00-99 but no repeats (00 01, 00 02, 00 03,...)
@@ -30,6 +30,7 @@ int main(void)
 					      (t == '9' && o == '9')))
 					{
 						putchar(',');
+						putchar(' ');
 					}
 				}
 				o = '0';
