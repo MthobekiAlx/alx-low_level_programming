@@ -5,7 +5,6 @@
  * @s: string
  * Return: length
  */
-
 int _strlen(char *s)
 {
 	int len = 0;
@@ -18,7 +17,6 @@ int _strlen(char *s)
 
 	return (len);
 }
-
 /**
  * _strcpy - copies the string pointed to by src,
  * including the terminating null byte (\0),
@@ -27,7 +25,6 @@ int _strlen(char *s)
  * @src: this is the source to copy
  * Return: copy of original source
  */
-
 char *_strcpy(char *dest, char *src)
 {
 	int i;
@@ -37,8 +34,8 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
-
-/* another method using pointer notation
+/**
+ * another method using pointer notation
 char *_strcpy(char *dest, char *src)
 {
         while (*src)
